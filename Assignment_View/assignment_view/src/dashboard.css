@@ -1,0 +1,25 @@
+#dashboard-head{
+    display:flex;
+    padding:0.5em;
+    background-color: lightgreen;
+}
+
+.options{
+    padding:1em;
+    cursor: pointer;
+    color:#C52321;
+    font-size: 1.5em;
+    border-right:2px solid grey
+}
+.item-3{
+    margin-left: auto;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.product{
+    width:300px;
+    margin:20px;
+}
